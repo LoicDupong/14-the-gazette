@@ -1,9 +1,17 @@
 .page__title{
     padding: 2rem 1rem;
     background-color: #efefef;
+}
+
+.container--page-title{
+    background-color: unset;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container--cta{
+    background-color: unset;
 }
 
 .container--about{
@@ -69,3 +77,37 @@
 }
 
 
+@media screen and (min-width:960px) {
+    .page__title{
+        margin: auto;
+    }
+    .section__text{
+        columns: 2;
+    }
+
+    .team__single__wrapper{
+        display: flex;
+        gap: 2rem;
+    }
+    .team__single__img img{
+        width: unset;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .team__single{
+        flex-basis: 25%;
+    }
+
+    .container__wrapper{
+        width: 100%;
+        background-color: white;
+        position: relative;
+        z-index: 2;
+    }
+
+    .text--cta{
+        padding-inline: 20%;
+    }
+}
