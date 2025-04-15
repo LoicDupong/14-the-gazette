@@ -42,6 +42,40 @@
 }
 
 
+@media screen and (min-width:960px) {
+    .menu--desktop{
+        display: flex;
+        gap: 1rem;
+        padding: .5rem 0;
+        width: 100%;
+    }
+
+    .search-icon{
+        margin-left: auto;
+        font-size: 18px;
+    }
+
+    .menu--mobile{
+        display: none;
+    }
+    
+    .header__logo{
+        max-width: calc(100% / 3);
+        border: none;
+        padding: 4rem 0;
+    }
+    .logo{
+        width: 100%;
+    }
+
+    .header__separator{
+       width: 100%;
+       border-bottom: 1px solid #e4e4e4;
+
+    }
+
+    
+}
 
 
 
