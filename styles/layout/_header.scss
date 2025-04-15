@@ -1,0 +1,47 @@
+.header__logo{
+    padding: 4rem 1rem;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header__navbar{
+    padding: .5rem 1rem;
+}
+.menu--desktop{
+    display: none;
+}
+
+.menu--mobile{
+    background-color: #ff0303;
+    width: max-content;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.menu__burger{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    div{
+        height: 3px;
+        width: 18px;
+        background-color: white;
+    }
+}
+
+.menu__title{
+    font-size: 1.1rem;
+}
+
+
+
+
+

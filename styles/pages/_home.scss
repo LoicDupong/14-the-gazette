@@ -1,8 +1,24 @@
+
+.carousel{
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__wrapper{
+    display: flex;
+    width: 300vw;
+}
+
 .carousel__item{
     background-position: center;
     background-size: cover;
     position: relative;
+    height: 380px;
+    width: 100vw;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
+
 .carousel__item::before{
     content: "";
     position: absolute;
@@ -24,4 +40,10 @@
 .carousel__header{
     position: relative;
     z-index: 3;
+    padding: 1.5rem 1rem;
+}
+
+.hero__title, .hero__subtitle{
+    color: white;
+    font-weight: 500;
 }

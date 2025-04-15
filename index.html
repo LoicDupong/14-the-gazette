@@ -1,168 +1,530 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS | The Gazette</title>
-    <link rel="stylesheet" href="./styles/styles.min.css">
-    <link rel="shortcut icon" href="./img/core-img/favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/4a8e7b5374.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   <!-------༼ つ ◕_◕ ༽つ section header ------->
-    <header class="header">
-       <div class="header__logo">
-        <img src="img/core-img/logo.png" alt="The Gazette Logo" class="logo">
-       </div>
-        <!-------༼ つ ◕_◕ ༽つ section nav / menu ------->
-       <nav class="header__nav">
-        <div class="menu menu--desktop"></div>
-        <div class="menu menu--mobile">
-            <div class="menu__burger">
-               <div></div>
-               <div></div>
-               <div></div>
-            </div>
-            <span class="menu__title">Menu</span>
-        </div>
-       </nav>
-        <!-------༼ つ ◕_◕ ༽つ section hero | carousel ------->
-       <div class="header__hero carousel">
-            <div class="carousel__item carousel__slide1">
-               <div class="carousel__header">
-                  <span class="hero__suptitle suptitle">Crypto</span>
-                  <h1 class="hero__title title">Crypto world goes mad</h1>
-                  <span class="hero__subtitle subtitle">March 29, 2018</span>
-               </div>
-            </div>
-            <div class="carousel__item carousel__slide2">
-               <div class="carousel__header">
-                  <span class="hero__suptitle suptitle">Live</span>
-                  <h1 class="hero__title title">The latest news live</h1>
-                  <span class="hero__subtitle subtitle">March 29, 2018</span>
-               </div>
-            </div>
-            <div class="carousel__item carousel__slide3">
-               <div class="carousel__header">
-                  <span class="hero__suptitle suptitle">Politics</span>
-                  <h1 class="hero__title title">Financial advices</h1>
-                  <span class="hero__subtitle subtitle">March 29, 2018</span>
-               </div>
-            </div>
-       </div>
-    </header>
-     <!-------(●'◡'●) section main ------->
-    <main class="main">
-         <div class="main__container">
-             <!------- (●'◡'●) section landing article ------->
-            <section class="article__landing article">
-               <div class="article__header">
-                  <span class="article__suptitle suptitle"></span>
-                  <h2 class="article__title title"></h2>
-                  <span class="article__subtitle subtitle"></span>
-               </div>
-               <div class="article__img">
-                  <img src="img/blog-img/1.jpg" alt="image article">
-               </div>
-               <div class="article__text"></div>
-               <div class="article__btn"></div>
-               <div class="article__socials">
-                  <i class="fa-brands fa-pinterest"></i>
-                  <i class="fa-brands fa-linkedin-in"></i>
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <i class="fa-brands fa-twitter"></i>
-               </div>
-            </section>
-            <!------- (●'◡'●) section most popular articles ------->
-            <section class="articles__popular section">
-               <div class="section__title">
-                  <h2 class="title--section">Today's most popular</h2>
-               </div>
-               <div class="articles__container">
-                  <div class="article__popular article">
-                     <div class="article__img">
-                        <img src="img/blog-img/2.jpg" alt="image article">
-                     </div>
-                     <div class="article__header">
-                        <span class="article__suptitle suptitle">Life</span>
-                        <h2 class="article__title title">Homeless man steals $350,000 </h2>
-                        <span class="article__subtitle subtitle">March 29, 2016</span>
-                        <a class="link__comments">3 Comments</a>
-                     </div>
-                     <div class="article__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consectetur dolorem, deleniti aut assumenda adipisci ipsam quia, sequi cumque nostrum architecto laboriosam amet veritatis! Incidunt nam quam esse dolor laborum?</div>
-                  </div>
-                  <div class="article__popular article">
-                     <div class="article__img">
-                        <img src="img/blog-img/3.jpg" alt="image article">
-                     </div>
-                     <div class="article__header">
-                        <span class="article__suptitle suptitle">News</span>
-                        <h2 class="article__title title">$250-million mansion is most expensive</h2>
-                        <span class="article__subtitle subtitle">March 29, 2016</span>
-                        <a class="link__comments">3 Comments</a>
-                     </div>
-                     <div class="article__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consectetur dolorem, deleniti aut assumenda adipisci ipsam quia, sequi cumque nostrum architecto laboriosam amet veritatis! Incidunt nam quam esse dolor laborum?</div>
-                  </div>
-               </div>
-            </section>
-            <!------- (●'◡'●) section breaking news ------->
-            <section class="articles__news section">
-               <div class="section__title">
-                  <h2 class="title--section">Today's most popular</h2>
-               </div>
-               <div class="article__news article">
-                  <div class="article__news__img">
-                     <img src="img/blog-img/bn-1.jpg" alt="image article">
-                  </div>
-                  <h3 class="article__news__title">China leads new global skyscraper record</h3>
-               </div>
-               <div class="article__news article">
-                  <div class="article__news__img">
-                     <img src="img/blog-img/bn-2.jpg" alt="image article">
-                  </div>
-                  <h3 class="article__news__title">Can a zebra crossing change its stripes?</h3>
-               </div>
-            </section>
-
-            <section class="section dont-miss">
-               <div class="section__title">
-                  <h2 class="title--section">Don't miss</h2>
-               </div>
-               <div class="dont-miss__item">
-                  <div class="dont-miss__thumb">
-                     <img src="img/blog-img/dm-1.jpg" alt="">
-                  </div>
-                  <div class="dont-miss__header">
-                     <a class="dont-miss__title">EU council reunites</a>
-                     <span class="dont-miss__subtitle subtitle">Nov 29, 2017</span>
-                  </div>
-               </div>
-               <div class="dont-miss__item">
-                  <div class="dont-miss__thumb">
-                     <img src="img/blog-img/dm-2.jpg" alt="">
-                  </div>
-                  <div class="dont-miss__header">
-                     <a class="dont-miss__title">EU council reunites</a>
-                     <span class="dont-miss__subtitle subtitle">Nov 29, 2017</span>
-                  </div>
-               </div>
-               <div class="dont-miss__item">
-                  <div class="dont-miss__thumb">
-                     <img src="img/blog-img/dm-3.jpg" alt="">
-                  </div>
-                  <div class="dont-miss__header">
-                     <a class="dont-miss__title">EU council reunites</a>
-                     <span class="dont-miss__subtitle subtitle">Nov 29, 2017</span>
-                  </div>
-               </div>
-            </section>
-            <section class="section newsletter-cta">
-               <div class="section__title">
-                  <h2 class="title--section">Subscribe</h2>
-               </div>
-            </section>
-         </div>
-    </main>
-    <footer class="footer"></footer>
-</body>
-</html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS | The Gazette</title>
+
+    <link rel="stylesheet" href="./styles/styles.min.css">
+
+    <link rel="shortcut icon" href="./img/core-img/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/4a8e7b5374.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+   <!-------(╯°□°）╯︵ ┻━┻ Go to top btn ------->
+   <a href="#header" class="go-top-btn">
+      <i class="fa-solid fa-angle-up"></i>
+   </a>
+
+   <!-------༼ つ ◕_◕ ༽つ section header ------->
+
+    <header class="header" id="header">
+
+       <div class="header__logo">
+
+        <img src="img/core-img/logo.png" alt="The Gazette Logo" class="logo">
+
+       </div>
+
+        <!-------༼ つ ◕_◕ ༽つ section nav / menu ------->
+
+       <div class="header__navbar">
+
+        <nav class="menu menu--desktop"></nav>
+
+        <nav class="menu menu--mobile">
+
+            <div class="menu__burger">
+
+               <div></div>
+
+               <div></div>
+
+               <div></div>
+
+            </div>
+
+            <span class="menu__title">Menu</span>
+
+        </nav>
+
+       </div>
+
+        <!-------༼ つ ◕_◕ ༽つ section hero | carousel ------->
+
+       <div class="header__hero carousel">
+
+            <div class="carousel__wrapper">
+               <div class="carousel__item carousel__slide1">
+                  <div class="carousel__header">
+                     <span class="hero__suptitle suptitle">Crypto</span>
+                     <h1 class="hero__title title">Crypto world goes mad</h1>
+                     <span class="hero__subtitle subtitle">March 29, 2018</span>
+                  </div>
+               </div>
+               <div class="carousel__item carousel__slide2">
+                  <div class="carousel__header">
+                     <span class="hero__suptitle suptitle">Live</span>
+                     <h1 class="hero__title title">The latest news live</h1>
+                     <span class="hero__subtitle subtitle">March 29, 2018</span>
+                  </div>
+               </div>
+               <div class="carousel__item carousel__slide3">
+                  <div class="carousel__header">
+                     <span class="hero__suptitle suptitle">Politics</span>
+                     <h1 class="hero__title title">Financial advices</h1>
+                     <span class="hero__subtitle subtitle">March 29, 2018</span>
+                  </div>
+               </div>
+            </div>
+
+       </div>
+
+    </header>
+
+     <!-------(●'◡'●) section main ------->
+
+    <main class="main">
+
+         <div class="main__container">
+
+             <!------- (●'◡'●) section landing article ------->
+
+            <section class="article__landing article">
+
+               <div class="article__header">
+
+                  <span class="article__suptitle suptitle">Politics</span>
+
+                  <h2 class="article__title title">What's behind the world obsession with gems?</h2>
+
+                  <span class="article__subtitle subtitle">March 29, 2016</span>
+
+               </div>
+
+               <div class="article__img">
+
+                  <img src="img/blog-img/1.jpg" alt="image article">
+
+               </div>
+
+               <div class="article__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend.
+               </div>
+
+               <a class="article__btn">
+                  Continue Reading <i class="fa-solid fa-angle-right"></i>
+               </a>
+
+               <div class="article__socials">
+
+                  <a href=""><i class="fa-brands fa-pinterest"></i></a>
+
+                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+               </div>
+
+            </section>
+
+            <!------- (●'◡'●) section most popular articles ------->
+
+            <section class="articles__popular section">
+
+               <div class="section__title">
+
+                  <h2 class="title--section">Today's most popular</h2>
+
+               </div>
+
+               <div class="articles__container">
+
+                  <div class="article__popular article">
+
+                     <div class="article__img">
+
+                        <img src="img/blog-img/2.jpg" alt="image article">
+
+                     </div>
+
+                     <div class="article__header">
+
+                        <span class="article__suptitle suptitle">Life</span>
+
+                        <h2 class="article__title title">$250-million mansion is most expensive</h2>
+
+                        <span class="article__subtitle subtitle">March 29, 2016</span>
+
+                        <a class="link__comments">3 Comments</a>
+
+                     </div>
+
+                     <div class="article__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consectetur dolorem, deleniti aut assumenda adipisci ipsam quia, sequi cumque nostrum architecto laboriosam amet veritatis! Incidunt nam quam esse dolor laborum?</div>
+
+                  </div>
+
+                  <div class="article__popular article">
+
+                     <div class="article__img">
+
+                        <img src="img/blog-img/3.jpg" alt="image article">
+
+                     </div>
+
+                     <div class="article__header">
+
+                        <span class="article__suptitle suptitle">News</span>
+
+                        <h2 class="article__title title">$250-million mansion is most expensive</h2>
+
+                        <span class="article__subtitle subtitle">March 29, 2016</span>
+
+                        <a class="link__comments">3 Comments</a>
+
+                     </div>
+
+                     <div class="article__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consectetur dolorem, deleniti aut assumenda adipisci ipsam quia, sequi cumque nostrum architecto laboriosam amet veritatis! Incidunt nam quam esse dolor laborum?</div>
+
+                  </div>
+
+               </div>
+
+            </section>
+
+            <!------- (●'◡'●) section breaking news ------->
+
+            <section class="articles__news section">
+
+               <div class="section__title">
+
+                  <h2 class="title--section">Breaking News</h2>
+
+               </div>
+
+               <div class="article__news article">
+
+                  <div class="article__news__img">
+                     <div class="img__title">
+                        <p class="breaking-news">Breaking News</p>
+                     </div>
+                     <img src="img/blog-img/bn-1.jpg" alt="image article">
+
+                  </div>
+  
+                  <h3 class="article__news__title">China leads new global skyscraper record</h3>
+
+               </div>
+
+               <div class="article__news article">
+
+                  <div class="article__news__img">
+                     <div class="img__title">
+                        <p class="breaking-news">Breaking News</p>
+                     </div>
+                     <img src="img/blog-img/bn-2.jpg" alt="image article">
+
+                  </div>
+                  <h3 class="article__news__title">Can a zebra crossing change its stripes?</h3>
+
+               </div>
+
+            </section>
+
+            <!------- (●'◡'●) section Don't Miss ------->
+
+            <section class="section dont-miss">
+
+               <div class="section__title">
+
+                  <h2 class="title--section">Don't miss</h2>
+
+               </div>
+
+               <div class="dont-miss__item">
+
+                  <div class="dont-miss__thumb">
+
+                     <img src="img/blog-img/dm-1.jpg" alt="">
+
+                  </div>
+
+                  <div class="dont-miss__header">
+
+                     <a class="dont-miss__title">EU council reunites</a>
+
+                     <span class="dont-miss__subtitle subtitle">Nov 29, 2017</span>
+
+                  </div>
+
+               </div>
+
+               <div class="dont-miss__item">
+
+                  <div class="dont-miss__thumb">
+
+                     <img src="img/blog-img/dm-2.jpg" alt="">
+
+                  </div>
+
+                  <div class="dont-miss__header">
+
+                     <a class="dont-miss__title">EU council reunites</a>
+
+                     <span class="dont-miss__subtitle subtitle">Nov 29, 2017</span>
+
+                  </div>
+
+               </div>
+
+               <div class="dont-miss__item">
+
+                  <div class="dont-miss__thumb">
+
+                     <img src="img/blog-img/dm-3.jpg" alt="">
+
+                  </div>
+
+                  <div class="dont-miss__header">
+
+                     <a class="dont-miss__title">EU council reunites</a>
+
+                     <span class="dont-miss__subtitle subtitle">Nov 29, 2017</span>
+
+                  </div>
+
+               </div>
+
+            </section>
+
+            <!------- (●'◡'●) section CTA Newsletter ------->
+
+            <section class="section newsletter-cta">
+
+               <div class="section__title">
+
+                  <h2 class="title--section">Subscribe</h2>
+
+               </div>
+
+               <form action="" class="newsletter__form">
+                  <input type="email" name="email" id="email" placeholder="Your Email" class="newsletter__form__input">
+                  <button class="newsletter__form__btn">Subscribe</button>
+               </form>
+            </section>
+
+            <!------- (●'◡'●) section Posts ------->
+            <section class="section posts">
+               <div class="posts__wrapper">
+                  <div class="post__single">
+                     <div class="post__single__thumb">
+                        <img src="img/blog-img/12.jpg" alt="">
+                     </div>
+                     <div class="post__single__details">
+                        <span class="suptitle">Video</span>
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__details">
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__details">
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                  </div>
+               </div>
+               <div class="posts__wrapper">
+                  <div class="post__single">
+                     <div class="post__single__thumb">
+                        <img src="img/blog-img/15.jpg" alt="">
+                     </div>
+                     <div class="post__single__details">
+                        <span class="suptitle">Video</span>
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__thumb">
+                        <img src="img/blog-img/16.jpg" alt="">
+                     </div>
+                     <div class="post__single__details">
+                        <span class="suptitle">Video</span>
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__thumb">
+                        <img src="img/blog-img/17.jpg" alt="">
+                     </div>
+                     <div class="post__single__details">
+                        <span class="suptitle">Video</span>
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="posts__wrapper">
+                  <div class="post__single">
+                     <div class="post__single__thumb">
+                        <img src="img/blog-img/13.jpg" alt="">
+                     </div>
+                     <div class="post__single__details">
+                           <span class="suptitle">Video</span>
+                           <h2 class="title">Save the eniroment with this step</h2>
+                           <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__details">
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__details">
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+                  <div class="post__single">
+                     <div class="post__single__details">
+                        <h2 class="title">Save the eniroment with this step</h2>
+                        <span class="subtitle">Nov 29, 2017</span>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="section videos">
+               <div class="video__single">
+                  <img src="img/blog-img/4.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">Show suspended by PBS amid misconduct allegations</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/5.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">Parents to Congress</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/6.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">Third Buy Alert for This “Millionaire Maker” Stock</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/7.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">The Chicago Mercantile Exchange is set to begin</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/8.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">Trading bitcoin futures</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/9.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">Are ‘Micro-Mansions’ the Next Big Thing?</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/10.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">McKinney’s target market</h5>
+               </div>
+               <div class="video__single">
+                  <img src="img/blog-img/11.jpg" alt="" class="video__thumb">
+                  <h5 class="video__title">Australian Property Prices Remain Flat</h5>
+               </div>
+            </section>
+         </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+         <div class="footer__nav">
+            <ul>
+               <span class="footer__nav__title">Regions</span>
+               <li><a href="">U.S.</a></li>
+               <li><a href="">Africa</a></li>
+               <li><a href="">Americas</a></li>
+               <li><a href="">Asia</a></li>
+               <li><a href="">China</a></li>
+               <li><a href="">Europe</a></li>
+               <li><a href="">Middle</a></li>
+               <li><a href="">East</a></li>
+               <li><a href="">Opinion</a></li>
+            </ul>
+         </div>
+         <div class="footer__nav">
+            <ul>
+               <span class="footer__nav__title">Politics</span>
+               <li><a href="">Business</a></li>
+               <li><a href="">Markets</a></li>
+               <li><a href="">Tech</a></li>
+               <li><a href="">Luxury</a></li>
+            </ul>
+         </div>
+
+         <div class="footer__nav">
+            <ul>
+               <span class="footer__nav__title">Featured</span>
+               <li><a href="">Footbal</a></li>
+               <li><a href="">Golf</a></li>
+               <li><a href="">Tennis</a></li>
+               <li><a href="">Motorsport</a></li>
+               <li><a href="">Horseracing</a></li>
+               <li><a href="">Equestian</a></li>
+               <li><a href="">Sailing</a></li>
+               <li><a href="">Skiing</a></li>
+            </ul>
+         </div>
+         <div class="footer__nav">
+            <ul>
+               <span class="footer__nav__title">FAQ</span>
+               <li><a href="">Aviation</a></li>
+               <li><a href="">Business</a></li>
+               <li><a href="">Traveller</a></li>
+               <li><a href="">Destinations</a></li>
+               <li><a href="">Features</a></li>
+               <li><a href="">Food/Drink</a></li>
+               <li><a href="">Hotels</a></li>
+               <li><a href="">Partner Hotels</a></li>
+            </ul>
+         </div>
+         <div class="footer__nav">
+            <ul>
+               <span class="footer__nav__title">+More</span>
+               <li><a href="">Fashion</a></li>
+               <li><a href="">Design</a></li>
+               <li><a href="">Architecture</a></li>
+               <li><a href="">Arts</a></li>
+               <li><a href="">Autos</a></li>
+               <li><a href="">Luxury</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer__copyrights">
+         <p>Copyright ©2025 All rights reserved | This template is made with ❤ by Loïc Dupong</p>
+      </div>
+    </footer>
+
+</body>
+
+</html>
+
