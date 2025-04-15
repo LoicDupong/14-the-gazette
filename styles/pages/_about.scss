@@ -1,0 +1,71 @@
+.page__title{
+    padding: 2rem 1rem;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container--about{
+    padding-bottom: 100px;
+}
+
+.team__single{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    &__details{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    &__socials{
+        align-self: flex-end;
+        font-size: 14px;
+        gap: .5rem;
+    }
+}
+
+.team__single__img img{
+    width: 100%;
+}
+
+.cta--team{
+    text-align: center;
+    padding: 100px 1rem;
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+
+
+.btn--cta{
+    margin-inline: auto;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    border-color: white;
+}
+
+.parallax{
+    background-image: url(/img/blog-img/cta.jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.70);
+        z-index: 1;
+    }
+}
+
+

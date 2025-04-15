@@ -5,10 +5,21 @@
 .container{
     padding: 0 15px;
     width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+    background-color: white;
 }
 
 section{
     padding-top: 100px;
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (min-width:960px) {

@@ -16,6 +16,13 @@ a:hover, a:hover .title, a:hover .subtitle{
 
 }
 
+.text{
+    line-height: 2;
+    color: #9f9f9f;
+    font-weight: 400;
+    font-size: 1rem;  
+}
+
 
 .suptitle{
     padding: 5px 10px;
@@ -81,6 +88,19 @@ a:hover, a:hover .title, a:hover .subtitle{
         font-weight: 400; 
         margin-top: 1rem;
      }
+    &--page{
+        font-size: 1.75rem;
+    }
+    &--section_about{
+        font-size: 1.75rem;
+        margin-bottom: 30px;
+    }
+    &--team{
+        margin: .5rem 0;
+    }
+    &--cta{
+      font-size: 2rem;  
+    }
 }
 
 .subtitle{
@@ -99,6 +119,12 @@ a:hover, a:hover .title, a:hover .subtitle{
     &--article{
         display: block;
         margin: 1rem 0;
+    }
+    &--team{
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(29, 29, 29, 0.75);
     }
 }
 
@@ -131,6 +157,15 @@ a:hover, a:hover .title, a:hover .subtitle{
     font-size: 1.25rem;
     font-weight: 400;
 }
+
+
+
+// ----------------(☞ﾟヮﾟ)☞ PAGE ABOUT US ICI ☜(ﾟヮﾟ☜)----------------
+
+.section__date{
+    font-style: italic;
+}
+
 
 @media screen and (min-width:960px) {
     .menu__item{
