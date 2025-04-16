@@ -188,6 +188,35 @@
     z-index: 7;
 }
 
+.video-single__img{
+    position: relative;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        z-index: 8;
+        transition: .3s all ease-in-out;
+    }
+    &:hover::before{
+        opacity: 1;
+    }
+    &::after{
+        content: "\f04b";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+}
+
 @media screen and (min-width:960px) {
     .carousel{
         overflow-x: hidden;
@@ -262,32 +291,4 @@
         gap: 2rem;
     }
 
-    .video-single__img{
-        position: relative;
-        
-        &::before{
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            opacity: 0;
-            z-index: 8;
-            transition: .3s all ease-in-out;
-        }
-        &:hover::before{
-            opacity: 1;
-        }
-        &::after{
-            content: "\f04b";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: white;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-        }
-    }
 }
