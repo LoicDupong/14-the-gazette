@@ -22,9 +22,20 @@ section{
     z-index: 2;
 }
 
+
 @media screen and (min-width:960px) {
     .container{
         margin: auto;
         max-width: 1140px;
+    }
+
+    .columns{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column{
+        display: flex;
+        justify-content: space-between;
     }
 }

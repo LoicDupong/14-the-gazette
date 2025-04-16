@@ -16,6 +16,12 @@ a:hover, a:hover .title, a:hover .subtitle{
 
 }
 
+p{
+    line-height: 2;
+    color: #9f9f9f;
+
+}
+
 .text{
     line-height: 2;
     color: #9f9f9f;
@@ -44,6 +50,7 @@ a:hover, a:hover .title, a:hover .subtitle{
     line-height: 1.2;
     font-weight: 400;
     margin: 1rem 0;
+    color: #3a3a3a;
     
     &--title {
         color: white;
@@ -100,6 +107,9 @@ a:hover, a:hover .title, a:hover .subtitle{
     }
     &--cta{
       font-size: 2rem;  
+    }
+    &--contact{
+       font-weight: 600; 
     }
 }
 
@@ -197,12 +207,19 @@ a:hover, a:hover .title, a:hover .subtitle{
             font-size: 24px;
             font-weight: 400;
         }
+        &--contact{
+            font-size: 24px;
+            font-weight: 700;
+        }
     }
 
     .subtitle{
         font-size: 14px;
 
         &--hero, &--landing{
+            font-size: 18px;
+        }
+        &--team{
             font-size: 18px;
         }
     }

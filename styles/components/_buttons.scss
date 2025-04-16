@@ -23,5 +23,18 @@
 
     &:hover{
         border-color: #ff084e;
+        color: #ff084e;
+    }
+
+    &--form{
+        width: 100%;
+        justify-content: center;
+        background-color: unset;
+        border: 2px solid black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1px;
+        cursor: pointer;
     }
 }
